@@ -127,7 +127,7 @@ class CalculatorModel:
         The initial volume of the concentrated acid (mL).
         """
 
-        V_init = (Cp_target*d_target*V_target)/(Cp_init*d_init)
+        V_init = (Cp_target*d_target*V_target*1000)/(Cp_init*d_init)
         
         return V_init
 
